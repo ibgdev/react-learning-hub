@@ -22,7 +22,7 @@ export const courseModules = [
             "When data changes, React calculates the difference (diffing) between the Virtual DOM and the Real DOM.",
             "Only the changed sub-components are updated in the browser, minimizing expensive DOM operations."
           ],
-          image: "/src/assets/vdom_diagram.png"
+          image: "/assets/vdom_diagram.png"
         },
         {
           heading: "How React Works Internally",
@@ -127,7 +127,7 @@ export const courseModules = [
             "To build React apps, we need a developer 'Ecosystem'. Gone are the days of just one HTML file.",
             "Modern tools handle performance, bundling, and local development seamlessly."
           ],
-          image: "/src/assets/tooling_stack.png",
+          image: "/assets/tooling_stack.png",
           subCards: [
             {
               icon: "🟢",
@@ -201,7 +201,7 @@ export const courseModules = [
             "JSX stands for JavaScript XML. It allows us to write HTML-like code inside our JavaScript files.",
             "It makes the code more readable and expressive by combining UI structure with logic."
           ],
-          image: "/src/assets/jsx_transform.png",
+          image: "/assets/jsx_transform.png",
           subCards: [
             {
               icon: "🔀",
@@ -256,7 +256,7 @@ export const courseModules = [
             "Instead of one giant file, we break the UI into independent, reusable pieces of code.",
             "Each component is essentially a JavaScript function that returns JSX."
           ],
-          image: "/src/assets/component_lego.png",
+          image: "/assets/component_lego.png",
           subCards: [
             {
               icon: "🏗️",
@@ -306,7 +306,7 @@ export const courseModules = [
             "Props (short for properties) are how we pass data from a parent component to a child component.",
             "They make components dynamic and reusable. Think of props as 'arguments' to a function."
           ],
-          image: "/src/assets/props_flow.png",
+          image: "/assets/props_flow.png",
           subCards: [
             {
               icon: "🛤️",
@@ -381,7 +381,7 @@ export const courseModules = [
             "React events are named using camelCase, rather than lowercase (e.g., onClick instead of onclick).",
             "You pass a function as the event handler rather than a string."
           ],
-          image: "/src/assets/event_lightning.png",
+          image: "/assets/event_lightning.png",
           subCards: [
             {
               icon: "🖱️",
